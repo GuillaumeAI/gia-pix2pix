@@ -1,4 +1,25 @@
 
+# intentions 
+
+Comprendre ce que Akten a fait pour produire "Gloomy Sunday"
+
+
+## extrait théorique qui accompagne la série d'Akten
+
+La librairie pix2pix a été utilisée pour entraîner à produire un résultat en provenance de deux images. L'une de départ et l'une désirée.  Le réseau apprend à générer l'image désirée selon l'image d'entrée.
+
+Je me questionne sur leur méthode qui ne contenait pas d'entrante mais juste des sortantes ?
+
+>The network architecture we use is based on pix2pix [8], for paired image-to-image translation. [...]  the network learns a transformation from input to target. 
+>We have built on this architecture to i) produce higher-resolution images, ii) encourage the network to generalize in the way we require and [...] influence the output in a meaningful and expressive manner.
+>The key difference of our system is in the way we train it. [...], we only provide target images.
+>(Akten, 2019, pp.4-5)
+
+
+----
+ORIGINAL
+----
+
 # pix2pix
 [Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |
 [PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
